@@ -1,18 +1,23 @@
 #input functions
-print("please answer the following")
+print ("==============================================")
+print ("MADLIB 1.0")
+print ("==============================================")
+print ("Input the following")
 adj_1 = input ("adjective: ")
 animal = input ("animal: ")
 verb_1 = input ("verb: ")
 exclamation = input ("exclamation: ")
-verb_2 = input ("verb: ")
-verb_3 = input ("verb: ")
+verb_2 = input ("verb (not '-ing'): ")
+verb_3 = input ("verb (not '-ing'): ")
 emotion = input ("emotion: ")
 adj_2 = input ("adjective: ")
 noun = input ("noun: ")
 adj_3 = input ("verb: ")
 
 
-#printed result
+#printed results
+print ( )
+print ("==============================================")
 print ("The other day, I was really in trouble. It all started when I saw a very")
 print (adj_1 + " " + animal + " " + verb_1 + " down the hallway. " + exclamation.capitalize() + "! I yelled. But all")
 print ("I could think to do was to " + verb_2 + " over and over. Miraculously,")
@@ -21,3 +26,5 @@ print ("right in front of my family.")
 print ("After that I was so " + emotion + ". I decided to take my " + adj_2) 
 print (noun + " out of my backpack to calm me down.")
 print ("All the sudden I woke up and realized it was all just a " + adj_3 + " dream!")
+print ("THE END")
+print ("==============================================")

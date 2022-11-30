@@ -1,3 +1,4 @@
+#practice for changing items in a list
 print("Please enter the items of the shopping list (type: quit to finish):")
 
 shopping_list = []

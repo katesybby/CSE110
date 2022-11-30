@@ -1,19 +1,21 @@
 #ADVENTURE GAME
+print("-------------------------------------------------------------------------------")
 print("WELCOME TO THE GAME OF THE CENTURY!")
-print(" ")
-print(" ")
+print("-------------------------------------------------------------------------------")
+print("good luck traveler!")
+print( )
 
 doors = input("You're walking, and you come upon two doors. One is made of candy and the other is plain except for a teeny tiny sign on it that says: 'beware'. Which door will you choose? CANDY or PLAIN? ")
-print(" ")
+print( )
 
 #candy door
 if doors == "candy":
     candy = input("You cautiously turn the lollipop handle and pull the door open. The door opens to an enormous world made entirely of candy. You immediately run in. As you are admiring the candy world, you cluelessly walk into a trap. Suddenly you're hanging upside down from a licorice tree. Do you try to ESCAPE or CALL FOR HELP? ")
-    print(" ")
+    print( )
 
     if candy == "escape": 
         escape = input("You reach up in an attempt to untie the licorice vine entrapping you and a giant chocolate squirrel skitters down the rope and begins to chew it. In minutes you are back on the ground. You want to thank the squirel for saving you. Will you TAKE HIM with you on your journey or HELP him rebuild his roof? ")
-        print(" ")
+        print( )
 
         if escape == "take him":
                 print ("The chocolate squirrel graciously accepts your offer of companionship and you both stroll down the red brick road into the sunrise. ")
@@ -25,7 +27,7 @@ if doors == "candy":
     
     if candy == "call for help":
         call = input("You scream help at the top of your lungs. No response. A faint marching sound begins to echo through the licocice forest and 23 seconds later a giant army of skittle people appear and they begin worshiping you. Will you become their LEADER, LEAVE them, or ?  ")
-        print(" ")
+        print( )
 
         if call == "leader":
                 print ("You are now the ruler of the skittle people. You live a life of immense luxury. You are a God among skittles. ")
@@ -38,11 +40,11 @@ if doors == "candy":
 #plain door
 if doors == "plain":
     plain = input("You cautiously turn the cold metal handle and pull the door open. The door opens to complete darkness. You reach for your back pocket to pull out your phone to use the flashlight, but your pocket is empty. Will you continue to SEARCH your pockets, or will you GO IN BLIND? ")
-    print(" ")
+    print( )
 
     if plain == "search": 
         follow = input("You pat each of your pockets down, quickly discovering your entire outfit is covered in pockets. Your fingers feel a warm slimy substance in the depths of your third breast pocket. You slowly remove your fingers from your pockets, tears streaming down your cheeks. Will you LICK the substance or LEAVE YOUR HAND in your pocket forever? ")
-        print(" ")
+        print( )
         
         if follow == "lick":
                 print ("You stick your fingers in your mouth. A tingling sensation immidiately engulfs your mouth in flames. You swallow, hoping it will reduce the pain. It doesn't. You scream out like a little girl. All of the sudden, the pain evaporates.")
@@ -53,7 +55,7 @@ if doors == "plain":
     
     if plain == "go in blind":
         go = input("You wave your feet and hands in front of yourself, hoping to protect yourself from any oncoming obstacles. Suddenly your foot smacks against something on the floor. Will you CONTINUE or INVESTIGATE? ")
-        print(" ")
+        print( )
         
         if go == "continue":
                 print ("As you go deeper and deeper into the room, you begin to hear a soft beeping coming from somewhere in front of you. You continue to slowly walk forward as the beeping grows louder and faster. Abruptly, the beeping stops. BOOOOOOOM! ")
