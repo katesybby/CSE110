@@ -1,22 +1,31 @@
-with open("life-expectancy.csv") as f:    #error = can't find file
-    for line in f:
-        clean_line = line.strip()
-        parts = line.split(" ")
+parts = []
+max = -1
+min = 99999
+min_yr = []
+max_yr = []
+min_country = []
+max_country = []
 
-        entity = parts[0]
-        #code = parts[1]
-        year = parts[2]
+with open("life-expectancy.csv") as life: 
+    for line in life:
+        clean_line = line.strip()
+        parts = clean_line.split(',')     #used to be 'line.split(",")'
+        entity = parts[0]   #add strip func?
+        code = parts[1]   #add strip func?
+        year = int(parts[2]) 
         life_expect = float(parts[3])
     
-# max = -1
-# for number in numbers:
-#     if number > big:
-#         big = number
+# if life_expect < life:
+#      min = life_expect
+#     min_yr = year
+#     min_country = entity
+        
+# for life_expect in life:
+#     if life_expect > max:
+#         max = life_expect
 
-# min = 9999999999
-# for number in numbers:
-#     if number > 0 and number < small:
-#         small = number
+#     if life_expect > 0 and life_expect < min:
+#         min = life_expect
 
 input_year = input("Enter the year of interest: ")
 # first = the_list[0] #gets the first item
@@ -38,7 +47,8 @@ print (f"\nFor the year {year}:")
 # count = len(numbers)
 # average = sum / count
 
-print (f"The average life expectancy across all countries was {}") #average life_expect
+print (f"The average life expectancy across all countries was: ") #average life_expect { }
 print (f"The max life expectancy in {entity} with {life_expect}") 
-print (f"The min life expectancy in {entity} with {life_expect}") 
+print (f"The min life expectancy in {entity} with {life_expect}")
+
 
