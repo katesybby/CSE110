@@ -26,15 +26,15 @@ if doors == "candy":
                 print ("DEAD. TRY AGAIN!")
     
     if candy == "call for help":
-        call = input("You scream help at the top of your lungs. No response. A faint marching sound begins to echo through the licocice forest and 23 seconds later a giant army of skittle people appear and they begin worshiping you. Will you become their LEADER, LEAVE them, or ?  ")
+        call = input("You scream help at the top of your lungs. No response. A faint marching sound begins to echo through the licocice forest and 23 seconds later a giant army of skittle people appear and they begin worshiping you. Will you become their LEADER or LEAVE them?")
         print( )
 
         if call == "leader":
-                print ("You are now the ruler of the skittle people. You live a life of immense luxury. You are a God among skittles. ")
+                print ("You are now the ruler of the skittle people. You live a life of immense luxury. You are a God amongst skittles. ")
                 print ("CONGRATULATIONS! YOU'VE WON")
         if call == "leave":
                 print ("You turn your back on the skittle people and hours later you are squished by a skittle rainbow. ")
-                print ("YOU'RE DEAD. DUMMY, YOU COULD HAVE BEEN KING.")
+                print ("YOU'RE DEAD. DUMMY, YOU COULD HAVE BEEN A KING.")
 
 
 #plain door
@@ -59,7 +59,7 @@ if doors == "plain":
         
         if go == "continue":
                 print ("As you go deeper and deeper into the room, you begin to hear a soft beeping coming from somewhere in front of you. You continue to slowly walk forward as the beeping grows louder and faster. Abruptly, the beeping stops. BOOOOOOOM! ")
-                print ("YOU HAVE DIED. GAME OVER")
+                print ("YOU HAVE DIED. GAME OVER. WHAT DID YOU THINK THE BEEPING WAS? A TIMER?")
         if go == "investigate":
                 print ("You pick up the object and return to the light of the room you began in. Once you return to the light, you are able to see that the object is an enourmous diamond!")
                 print ("CONGRATULATIONS! YOU'RE RICH!")

@@ -12,7 +12,6 @@ action = int(input("Please enter an action: "))
 # word input instead of number fix 
 # if action != ("1", "2", "3", "4", "5"): 
 #     print ("number not listed, try again.")
-#     action = int(input("Please enter an action: "))
 
 items = []
 prices = []
